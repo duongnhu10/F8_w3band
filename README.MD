@@ -1,9 +1,17 @@
-# W3_BAND
+# TRANG WEB GIỚI THIỆU BAN NHẠC
 
-🍒 Dự án nhỏ về trang web giới thiệu ban nhạc.
+<BR>
+🍒 Sử dụng: HTML, CSS
 <br>
-🍒 Sử dụng HTML, CSS.
+
+# EVERYDAY
+
+[🐢] 12/2023 - 03/2024
 <br>
-🍒 Phù hợp cho các bạn mới bắt đầu học lập trình web.
+☠
+
+[🐢] 09/03/2024
+
+✅
 <br>
-🍒 Nguồn học: https://fullstack.edu.vn/learning/html-css.
+✅
