@@ -23,6 +23,8 @@ html {
   right: 0;
   height: 46px;
   background-color: #000;
+  z-index: 1;
+  /* header sẽ nổi lên slider */
 }
 
 #nav .subnav {
@@ -99,6 +101,41 @@ html {
   color: #fff;
   font-size: 20px;
   line-height: 46px;
+}
+
+/* Thuộc tính theo sau padding-top là % thì tỷ lệ theo chiều ngang chính nó */
+#slider {
+  position: relative;
+  margin-top: 46px;
+  padding-top: 50%;
+  background: url("/assets/img/slider/slider1.jpg") top center / cover no-repeat;
+}
+
+/* Phần content không còn chiếm chỗ của slider padding */
+#slider .text-content {
+  position: absolute;
+  bottom: 47px;
+
+  /* left: 50%;
+  transform: translateX(-50%); */
+
+  width: 100%;
+
+  /* right: 0;
+  left: 0; */
+
+  text-align: center;
+  color: white;
+}
+
+#slider .text-heading {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#slider .text-description {
+  font-size: 15px;
+  margin-top: 25px;
 }
 
 #content {
