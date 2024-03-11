@@ -4,12 +4,17 @@
 🍒 Sử dụng: HTML, CSS
 <br>
 
-# EVERYDAY
+# PROCESS
 
-[🐢] 12/2023 - 03/2024
+✅ Create project base
 <br>
-☠
+✅ Header CSS
 <br>
-[🐢] 09/03/2024
+✅ Navigation CSS
+<br>
+✅ Header search CSS
+<br>
+✅ Header fixed CSS
 <br>
 ✅ Slider CSS
+<br>
