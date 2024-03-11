@@ -18,3 +18,4 @@
 <br>
 ✅ Slider CSS
 <br>
+✅ About section CSS
