@@ -19,3 +19,5 @@
 ✅ Slider CSS
 <br>
 ✅ About section CSS
+<br>
+✅ Team section CSS
