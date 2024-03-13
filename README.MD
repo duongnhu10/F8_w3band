@@ -21,3 +21,5 @@
 ✅ About section CSS
 <br>
 ✅ Team section CSS
+<br>
+✅ Tour tickets CSS

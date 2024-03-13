@@ -168,6 +168,7 @@ html {
   opacity: 0.6;
   /* làm mờ */
 }
+
 #content .about-text {
   margin-top: 25px;
   font-size: 15px;
@@ -197,6 +198,50 @@ html {
   padding-top: 15px;
   width: 154px;
   border-radius: 4px;
+}
+
+/* Tour session  */
+.tour-section {
+  background-color: #000;
+}
+
+.text-white {
+  color: white !important;
+  /* dùng important khi tạo class riêng lẻ */
+}
+
+.tickets-list {
+  background-color: white;
+  margin-top: 40px;
+  list-style: none;
+  /* loại bỏ dấu chấm */
+}
+
+.tickets-list li {
+  color: #ccc;
+  font-size: 15px;
+  padding: 11px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tickets-list .sold-out {
+  background-color: #f44336;
+  color: #fff;
+  padding: 4px 4px;
+  margin-left: 16px;
+}
+
+.tickets-list .quantity {
+  float: right;
+  /* mặc định display = block */
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  margin-top: -2px;
+  /* dùng được âm khi sử dụng float */
 }
 
 #footer {
