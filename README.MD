@@ -1,7 +1,7 @@
 # TRANG WEB GIỚI THIỆU BAN NHẠC
 
 <BR>
-🍒 Sử dụng: HTML, CSS
+NGÔN NGỮ: HTML, CSS
 <br>
 
 # PROCESS
