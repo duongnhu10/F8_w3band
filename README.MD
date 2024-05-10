@@ -23,3 +23,5 @@
 ✅ Team section CSS
 <br>
 ✅ Tour tickets CSS
+<br>
+✅ Tour places CSS

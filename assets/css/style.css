@@ -1,7 +1,7 @@
 /* Reset CSS */
-/* .clear {|
+.clear {
   clear: both;
-} */
+}
 
 * {
   padding: 0;
@@ -244,5 +244,65 @@ html {
   /* dùng được âm khi sử dụng float */
 }
 
+/* Places */
+.place-list {
+  margin: 32px -8px 48px;
+  /* padding-bottom: 48px; */
+}
+
+.place-item {
+  float: left;
+  width: 33.333333%;
+  padding: 0 8px;
+}
+
+.place-img {
+  width: 100%;
+  display: block;
+  /* Phần tử inline đứng cạnh block sẽ bị đẩy */
+}
+
+.place-img:hover {
+  opacity: 0.6;
+}
+
+.place-body {
+  background-color: #fff;
+  padding: 16px;
+  font-size: 15px;
+}
+
+.place-heading {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.place-time {
+  margin-top: 15px;
+  color: #757575;
+}
+
+.place-desc {
+  margin-top: 15px;
+  line-height: 1.4;
+  /* Tiếng anh là 1.6, tiếng việt là 1.4 */
+}
+
+.place-buy-btn {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 11px 16px;
+  /* Phần button chèn lên trên phầm mô tả */
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.place-buy-btn:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+/* Section footer */
 #footer {
 }
