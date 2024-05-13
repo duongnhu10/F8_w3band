@@ -323,7 +323,7 @@ html {
   /* Code javascript thêm display = flex hiện lên */
 }
 
-.modal .open {
+.open {
   display: flex;
 }
 
@@ -334,6 +334,8 @@ html {
   background-color: #fff;
   min-height: 200px;
   position: relative;
+  /* Hiệu ứng di chuyển modal */
+  animation: modalFadeIn ease 0.5s;
 }
 
 .modal-header {
@@ -405,4 +407,16 @@ modal-heading-icon {
 
 .modal-footer a {
   color: #2196f3;
+}
+
+/* Modal di chuyển, trên xuống, đậm nhạt */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-140px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
