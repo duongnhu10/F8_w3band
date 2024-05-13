@@ -60,16 +60,16 @@
                     enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat.
                 </p>
-                <div class="member-list">
-                    <div class="member-item">
+                <div class="row member-list">
+                    <div class="text-center col col-third">
                         <p class="member-name">Name</p>
                         <img class="member-img" src="./assets/img/band/member1.jpg" alt="Name">
                     </div>
-                    <div class="member-item">
+                    <div class="text-center col col-third">
                         <p class="member-name">Name</p>
                         <img class="member-img" src="./assets/img/band/member1.jpg" alt="Name">
                     </div>
-                    <div class="member-item">
+                    <div class="text-center col col-third">
                         <p class="member-name">Name</p>
                         <img class="member-img" src="./assets/img/band/member1.jpg" alt="Name">
                     </div>
@@ -92,8 +92,8 @@
                     </ul>
 
                     <!-- Places -->
-                    <div class="place-list">
-                        <div class="place-item">
+                    <div class="place-list row">
+                        <div class="col-third col">
                             <img src="./assets/img/places/place1.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
@@ -103,7 +103,7 @@
                             </div>
                         </div>
 
-                        <div class="place-item">
+                        <div class="col-third col">
                             <img src="./assets/img/places/place2.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
@@ -113,7 +113,7 @@
                             </div>
                         </div>
 
-                        <div class="place-item">
+                        <div class="col-third col">
                             <img src="./assets/img/places/place3.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
@@ -210,7 +210,7 @@
         //Nghe hành vi click vào button close
         modalClose.addEventListener('click', hideBuyTickets)
 
-        //Nhấn ra ngoài bị đống (hạn chế: sự kiện nổi bọt)
+        //Nhấn ra ngoài bị đóng (hạn chế: sự kiện nổi bọt)
         modal.addEventListener('click', hideBuyTickets)
 
         //Không nổi bọt ở modal-container
