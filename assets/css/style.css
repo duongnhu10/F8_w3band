@@ -8,6 +8,13 @@
   margin-right: -8px;
 }
 
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+  /* sử dụng này nên bỏ div clear đi */
+}
+
 .col {
   float: left;
   padding-left: 8px;
@@ -20,6 +27,26 @@
 
 .col-half {
   width: 50%;
+}
+
+.col-full {
+  width: 100%;
+}
+
+.mt-8 {
+  margin-top: 8px !important;
+}
+
+.mt-16 {
+  margin-top: 16px !important;
+}
+
+.form-submit-btn {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  padding: 10px 16px;
+  float: right;
 }
 
 * {
@@ -447,4 +474,28 @@ modal-heading-icon {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Contact form */
+.contact-content {
+  margin-top: 48px;
+}
+
+.contact-info {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.contact-info i[class="ti-"] {
+  width: 30px;
+}
+
+.contact-form {
+  font-size: 15px;
+}
+
+.contact-form .form-control {
+  padding: 15px;
+  border: 1px solic #ccc;
+  width: 100%;
 }
