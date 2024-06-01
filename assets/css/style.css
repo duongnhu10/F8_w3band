@@ -41,12 +41,21 @@
   margin-top: 16px !important;
 }
 
-.form-submit-btn {
-  background-color: #000;
+.btn {
   color: #fff;
-  border: 1px solid #000;
-  padding: 10px 16px;
-  float: right;
+  background-color: #000;
+  text-decoration: none;
+  padding: 11px 16px;
+  /* Phần button chèn lên trên phầm mô tả */
+  display: inline-block;
+  margin-top: 15px;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #ccc;
 }
 
 * {
@@ -193,7 +202,7 @@ html {
 
 #content .content-section {
   width: 800px;
-  padding: 64px 0;
+  padding: 64px 0 112px;
 
   margin-left: auto;
   margin-right: auto;
@@ -238,6 +247,10 @@ html {
 
 .text-center {
   text-align: center !important;
+}
+
+.pull-right {
+  float: right !important;
 }
 
 #content .member-name {
@@ -297,7 +310,7 @@ html {
 /* Places */
 .place-list {
   margin-top: 32px;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
   /* margin: 32px -8px 48px; */
   /* Bỏ -8px thêm vào class row chung */
   /* padding-bottom: 48px; */
@@ -341,25 +354,6 @@ html {
   margin-top: 15px;
   line-height: 1.4;
   /* Tiếng anh là 1.6, tiếng việt là 1.4 */
-}
-
-.place-buy-btn {
-  color: #fff;
-  background-color: #000;
-  text-decoration: none;
-  padding: 11px 16px;
-  /* Phần button chèn lên trên phầm mô tả */
-  display: inline-block;
-  margin-top: 15px;
-}
-
-.place-buy-btn:hover {
-  color: #000;
-  background-color: #ccc;
-}
-
-/* Section footer */
-#footer {
 }
 
 .modal {
@@ -498,4 +492,40 @@ modal-heading-icon {
   padding: 15px;
   border: 1px solic #ccc;
   width: 100%;
+}
+
+/* Map section */
+.map-section img {
+  width: 100%;
+  /* 100% thẻ chứa nó nên có thể co dãn */
+}
+
+/* Section footer */
+#footer {
+  padding: 64px 16px;
+  text-align: center;
+}
+
+#footer .socials-list {
+  font-size: 24px;
+}
+
+#footer .socials-list a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyright a:hover,
+#footer .socials-list a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .copyright {
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyright a {
+  color: rgba(0, 0, 0, 0.6);
 }
