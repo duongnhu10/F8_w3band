@@ -1,0 +1,10 @@
+@media (max-width: 740px) {
+  #nav li {
+    display: block;
+    /* Hiển thị menu theo chiều dọc */
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+}
