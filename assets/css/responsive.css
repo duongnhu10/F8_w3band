@@ -14,6 +14,21 @@
     display: inline-block;
   }
 
+  /* Bên mobile không cần absolute */
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  #nav .subnav a {
+    color: #fff;
+    padding: 5px 41px;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
   #header .mobile-menu-btn {
     display: block;
   }
