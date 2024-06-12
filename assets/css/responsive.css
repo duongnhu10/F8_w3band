@@ -1,7 +1,21 @@
 @media (max-width: 740px) {
-  #nav li {
+  #nav {
     display: block;
     /* Hiển thị menu theo chiều dọc */
+  }
+
+  #nav > li {
+    display: block;
+    /* Hiển thị menu theo chiều dọc */
+  }
+
+  /* Cho thanh menu không trải ngang ra */
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #header .mobile-menu-btn {
+    display: block;
   }
 
   #header .search-btn {
