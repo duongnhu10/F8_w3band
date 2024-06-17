@@ -1,4 +1,9 @@
 @media (max-width: 740px) {
+  /* Cho các hình ảnh theo chiều dọc */
+  .s-col-full {
+    width: 100%;
+  }
+
   #nav {
     display: block;
     /* Hiển thị menu theo chiều dọc */
@@ -35,5 +40,14 @@
 
   #header .search-btn {
     display: none;
+  }
+
+  #content {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  #content .memer-img {
+    width: 60%;
   }
 }

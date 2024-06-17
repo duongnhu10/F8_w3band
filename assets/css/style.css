@@ -259,7 +259,8 @@ html {
 }
 
 #content .member-list {
-  padding-top: 48px;
+  /* Từ 48 giảm thành 32 để trên tablet và mobile không thay đổi */
+  padding-top: 32px;
   overflow: hidden;
   /* Khi sử dụng thẻ con là float thì thẻ cha không ôm được thẻ con */
 }
@@ -336,7 +337,7 @@ html {
 
 /* Places */
 .place-list {
-  margin-top: 32px;
+  margin-top: 16px;
   /* margin-bottom: 48px; */
   /* margin: 32px -8px 48px; */
   /* Bỏ -8px thêm vào class row chung */
