@@ -41,6 +41,10 @@
   margin-top: 16px !important;
 }
 
+.mt-32 {
+  margin-top: 32px !important;
+}
+
 .btn {
   color: #fff;
   background-color: #000;
@@ -49,6 +53,7 @@
   /* Phần button chèn lên trên phầm mô tả */
   display: inline-block;
   margin-top: 15px;
+  text-align: center;
   border: none;
 }
 

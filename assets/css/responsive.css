@@ -1,7 +1,12 @@
 @media (max-width: 740px) {
   /* Cho các hình ảnh theo chiều dọc */
+  .s-full-width,
   .s-col-full {
-    width: 100%;
+    width: 100% !important;
+  }
+
+  .s-mt-8 {
+    margin-top: 8px !important;
   }
 
   #nav {
@@ -47,7 +52,11 @@
     width: 100%;
   }
 
-  #content .memer-img {
+  #content .member-img {
     width: 60%;
+  }
+
+  .contact-form {
+    margin-top: 16px;
   }
 }
