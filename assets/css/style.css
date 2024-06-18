@@ -55,6 +55,10 @@
   margin-top: 15px;
   text-align: center;
   border: none;
+  /* Bỏ mặc định */
+  appearance: none;
+  /* Trên chrome */
+  -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -515,6 +519,16 @@ modal-heading-icon {
 
 .contact-info i[class="ti-"] {
   width: 30px;
+  display: inline-block;
+}
+
+.contact-info a {
+  color: #101aef;
+  opacity: 0.8;
+}
+
+.contact-info a:hover {
+  opacity: 1;
 }
 
 .contact-form {
